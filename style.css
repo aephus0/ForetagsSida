@@ -1,0 +1,184 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.container {
+  font-family: "Roboto", sans-serif;
+  min-height: 100%;
+  position: relative;
+  color: black;
+  height: 100%;
+
+}
+.header {
+  display: grid;
+  grid-template-columns: 20% 15% auto 20% 15%;
+  align-self: center;
+  position: sticky;
+  top: 0;
+  color: white;
+  background: black;
+  padding: 10px;
+}
+
+a.item-c:link,
+a.item-c:visited {
+  color: black;
+}
+a.item-c:hover {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: white;
+  padding: 0px 7px;
+}
+
+a:hover {
+  color: grey;
+}
+.footer {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  background: black;
+  color: aqua;
+  justify-content: center;
+  align-items: center;
+  
+}
+.swag {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+.offset50 {
+  position: absolute;
+  right: 50px;
+  padding-left: 50px;
+}
+
+.flexboxright{
+    flex-direction: row;
+    justify-content: end;
+}
+
+.item-a{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  justify-self: center;
+}
+.item-b{
+  font-size: 18;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  justify-self: center;
+  align-self: center;
+}
+.item-c{
+  grid-column-start: 5;
+  grid-column-end: 5;
+  justify-self: center;
+  align-self: center;
+  color: black;
+}
+
+#textmain{
+  text-align: center;
+  font-size: 40px
+}
+
+.body{
+  padding: 10px;
+  padding-bottom: 15%;
+  
+}
+.flexShrink1 {
+  flex-shrink: 1;
+}
+.flexShrink2 {
+  flex-shrink: 2;
+}
+.flexShrink3 {
+  flex-shrink: 3;
+}
+.flexShrink4 {
+  flex-shrink: 4;
+}
+.flexShrink5 {
+  flex-shrink: 5;
+}
+.flexGrow1 {
+  flex-grow: 1;
+}
+.flexGrow2 {
+  flex-grow: 2;
+}
+.flexGrow3 {
+  flex-grow: 3;
+}
+.flexGrow4 {
+  flex-grow: 4;
+}
+.flexGrow5 {
+  flex-grow: 5;
+}
+.box {
+  box-sizing: content-box;
+  border: 5px;
+  border: solid;
+  padding: 2px;
+  margin: 10px;
+  max-width: 20vw;
+  min-width: 10vw;
+  min-height: 5vw;
+}
+.box2 {
+  box-sizing: content-box;
+  border: 5px;
+  border: solid;
+  padding: 10px;
+  margin: 10px;
+  max-width: 80vw;
+}
+.flexBoxCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flexBoxCenter2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5vh;
+}
+.offset {
+  padding-left: 15px;
+}
+
+#ring{
+  top: 80%;
+  text-align: center;
+}
+@media (max-width: 500px) {
+  .swag {
+    flex-direction: column;
+  }
+  .flexBoxCenter {
+    margin-bottom: 100px;
+  }
+}
+.bap{
+  font-size: 40px;
+}
